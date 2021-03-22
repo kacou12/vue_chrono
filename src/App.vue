@@ -1,26 +1,12 @@
 <template>
-<div>
-    <button type="button" @click="moins"> - </button>
-      <span> {{ element }} </span>
-    <button type="button" @click="plus"> + </button>
-</div>
-
+    <StopWatchVue></StopWatchVue>
 </template>
-
 <script>
+import StopWatchVue from './components/StopWatch.vue';
 
 export default {
-  name: 'App',  
-  data() {
-    return {element : 0}
-  }, 
-  methods:{
-    moins: function (){
-      this.element -= 1
-    },
-    plus: function(){
-      this.element += 1
-    }
+  components: {
+    StopWatchVue
   }
 }
 </script>
