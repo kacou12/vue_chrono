@@ -14,6 +14,7 @@ export default {
   data() {
     return {element : 0}
   }, 
+  
   methods:{
     moins: function (){
       this.element -= 1
