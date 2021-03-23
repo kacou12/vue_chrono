@@ -1,12 +1,12 @@
 <template>
-    <StopWatchVue></StopWatchVue>
+    <CalculatriceVue></CalculatriceVue>
 </template>
 <script>
-import StopWatchVue from './components/StopWatch.vue';
+import CalculatriceVue from './components/Calculatrice.vue';
 
 export default {
   components: {
-    StopWatchVue
+    CalculatriceVue
   }
 }
 </script>
